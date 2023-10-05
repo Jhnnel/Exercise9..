@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model Sample</title>
+  <style>
+    /* Apply some styles to the box */
+    .box {
+      width: 200px;
+      height: 250px;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 30px;
+      background-color: lightgray;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    /* Center the image inside the box */
+    .box img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 50%;
+    }
+    /* Center the h1 header */
+    .box h1 {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="https://images.pexels.com/photos/14440674/pexels-photo-14440674.jpeg" alt="Sample Image">
+    <h4>I am a Cat!</h4>
+    
+  </div>
+</body>
+</html>
